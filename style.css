@@ -15,66 +15,70 @@ Retrieved from coolers.co: https://coolors.co/fadde1-ffc4d6-ffa6c1-ff87ab-ff5d8f
 
     font-family: 'Secular One', sans-serif;
 */
-html{
-	background-color: #FF5D8F; /*dark pink*/
+
+html {
+	background-color: #FF5D8F;
+	/*dark pink*/
 	margin: 0px 10px 10px 10px;
 }
 
 * {
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-	
-font-family: 'Grandstander', cursive;
-background-color: #ffc4d6; /*Med pink*/
-margin-left:auto;
-margin-right: auto;
-margin-top: 0%;
-width: 80%;
-text-align: center;
+	font-family: 'Grandstander', cursive;
+	background-color: #ffc4d6;
+	/*Med pink*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	width: 80%;
+	text-align: center;
 }
 
 main {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  margin-top: 5%;
-text-align: left;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: left;
 }
-footer, header{
+
+footer,
+header {
 	background-color: #FFA6C1;
 }
+
 header {
 	font-family: 'Henny Penny', cursive;
-	
-	font-size:150%;
+	font-size: 150%;
 	padding-left: 5px;
 	padding-top: 5px;
-border-bottom: 3px solid #FF5D8F;
+	border-bottom: 3px solid #FF5D8F;
 }
 
 h1 {
-font-weight: bold;
-color: #cf4a73;
- text-shadow: 1px 1px 2px #ffffff;
+	font-weight: bold;
+	color: #cf4a73;
+	text-shadow: 1px 1px 2px #ffffff;
 }
 
 .bold {
-font-weight: bold;
+	font-weight: bold;
 }
 
 li {
-margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 footer {
-padding-top: 35px;
-padding-bottom: 35px;
-margin-bottom: 0px;
-border-top: 3px solid #FF5D8F;
-text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 0px;
+	border-top: 3px solid #FF5D8F;
+	text-align: center;
 }
 
 .volume {
@@ -83,7 +87,6 @@ text-align: center;
 	width: 42px;
 	float: right;
 }
-
 
 .volume:hover {
 	color: white;
@@ -97,14 +100,15 @@ text-align: center;
 }
 
 .pet-image {
-margin: 35% 10% 10% 10%;
-height: 25%;
-border-radius: 5px;
+	margin: 35% 10% 10% 10%;
+	height: 25%;
+	border-radius: 5px;
 }
 
 .dashboard div {
-display:block;
+	display: block;
 }
+
 .message {
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
@@ -112,57 +116,58 @@ display:block;
 	padding: 100px 110px 100px 100px;
 	background: url("assets/text_bubble.png");
 	background-repeat: no-repeat;
-	background-size:75%;
+	background-size: 75%;
 	background-position: center;
 	position: absolute;
-	bottom: 40%; 
+	bottom: 40%;
 	right: 68%;
 }
 
 .pet-image-container {
-display: block;
-height: 500px;
-width: 500px;
-text-align: center;
-background: url("assets/background.png");
-background-repeat: no-repeat;
-background-size:100%;
-background-position: center;
-float: left;
+	display: block;
+	height: 500px;
+	width: 500px;
+	text-align: center;
+	background: url("assets/background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	float: left;
 }
 
 .dashboard {
-	background-color: #FADDE1; /*light pink*/
+	background-color: #FADDE1;
+	/*light pink*/
 	border-radius: 25px;
-padding:30px;
-display:inline-block;
-margin-top: 100px;
-margin-left: 130px;
+	padding: 30px;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 130px;
 }
 
 .stats {
-	margin:0% 10% 5%;
+	margin: 0% 10% 5%;
 }
-meter{
+
+meter {
 	float: right;
 }
 
-
 .button-container {
-text-align: center;
-float: right;
+	text-align: center;
+	float: right;
 }
 
 .button-container button {
 	font-family: 'Secular One', sans-serif;
-width: 100px;
-margin-right: 10px;
-text-align: center;
-display: inline-block;
-font-size:15px;
-background-color: #1e2835;
-border-color: #e9396c;
-cursor:pointer;
-background-image: linear-gradient(to bottom,#ba587d 0%,#d480a2 66%);
-color: #fafafa;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	background-color: #1e2835;
+	border-color: #e9396c;
+	cursor: pointer;
+	background-image: linear-gradient(to bottom, #ba587d 0%, #d480a2 66%);
+	color: #fafafa;
 }

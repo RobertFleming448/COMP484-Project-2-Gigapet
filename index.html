@@ -7,44 +7,43 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="script.js" defer></script>
-	  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
       <link rel="stylesheet" href="style.css">
-	   <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Henny+Penny&family=Indie+Flower&family=Secular+One&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Henny+Penny&family=Indie+Flower&family=Secular+One&display=swap" rel="stylesheet">
    </head>
    <body>
       <header>
          <h1>
             This is your Giga Pet
          </h1>
-		 <!-- Buttons swap visibility in the script when pressed -->
-		 <div class="visible volume " id="mute"><i class="fas fa-volume-up"></i></div>
-		 <div class="invisible volume" id="unmute"><i class="fas fa-volume-off"></i></div>
+         <!-- Buttons swap visibility in the script when pressed -->
+         <div class="visible volume " id="mute"><i class="fas fa-volume-up"></i></div>
+         <div class="invisible volume" id="unmute"><i class="fas fa-volume-off"></i></div>
       </header>
-	  <br>
+      <br>
       <main>
-		 <section class="pet-image-container">
-			<!-- Replace pet image with your own pet image -->
-			<img class="pet-image" id="pet_image" src="assets/neutral.png">
-			<div class="empty" id="message"></div>
-		 </section>
-
+         <section class="pet-image-container">
+            <!-- Replace pet image with your own pet image -->
+            <img class="pet-image" id="pet_image" src="assets/neutral.png">
+            <div class="empty" id="message"></div>
+         </section>
          <section class="dashboard">
-		 <!--Audio for when a button is pressed -->
-			<audio id="cry">
-				<source src="assets/cry.mp3" type="audio/mp3">
-			</audio>
-			<!-- Meter technique found at: https://www.w3schools.com/tags/tag_meter.asp -->
+            <!--Audio for when a button is pressed -->
+            <audio id="cry">
+               <source src="assets/cry.mp3" type="audio/mp3">
+            </audio>
+            <!-- Meter technique found at: https://www.w3schools.com/tags/tag_meter.asp -->
             <div class="stats">Name: <strong><span class="name"></span></strong>
-			</div>
+            </div>
             <div class="stats">Weight: <strong><span class="weight"></span> pounds</strong>
-				<meter id="weight_meter" value="0" min="0" max="0"></meter>
-			</div>
+               <meter id="weight_meter" value="0" min="0" max="0"></meter>
+            </div>
             <div class="stats">Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong>
-				<meter id="happiness_meter" value="0" min="0" max="0"></meter>
-			</div>
-			<div class="stats">Skill: <strong><span class="skill"></span> points</strong>
-				<meter id="skill_meter" value="0" min="0" max="0"></meter>
-			</div>
+               <meter id="happiness_meter" value="0" min="0" max="0"></meter>
+            </div>
+            <div class="stats">Skill: <strong><span class="skill"></span> points</strong>
+               <meter id="skill_meter" value="0" min="0" max="0"></meter>
+            </div>
             <div class="button-container">
                <button class="treat-button">
                Treat
@@ -55,7 +54,7 @@
                <button class="exercise-button">
                Exercise
                </button>
-			   <button class="train-button">
+               <button class="train-button">
                Train
                </button>
             </div>
@@ -65,13 +64,12 @@
       <script src="https://code.jquery.com/jquery-2.2.1.min.js"
          integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
          crossorigin="anonymous"></script>
-		 
-		 <footer>
-			<p>
-               <a href="mailto:robert.fleming.899@my.csun.edu"><i class="far fa-envelope"></i> robert.fleming.899@my.csun.edu</a>
-               <a href="https://github.com/RobertFleming448/COMP484-Project-2-Gigapet" target="_blank"><i class="fab fa-github"></i> Github</a>
-               <a href="https://www.linkedin.com/in/robert-fleming-16b4051b9/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-			</p>
-		 </footer>
+      <footer>
+         <p>
+            <a href="mailto:robert.fleming.899@my.csun.edu"><i class="far fa-envelope"></i> robert.fleming.899@my.csun.edu</a>
+            <a href="https://github.com/RobertFleming448/COMP484-Project-2-Gigapet" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a href="https://www.linkedin.com/in/robert-fleming-16b4051b9/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+         </p>
+      </footer>
    </body>
 </html>
